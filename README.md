@@ -3,7 +3,7 @@
 A small script to generate CSV files from raw SQL outputs.
 
 ```sh
-$ git clone
+$ git clone https://github.com/tym-xqo/quick-sql2csv.git
 $ python -m venv .venv
 $ source .venv/bin/activate
 $ python -m pip install -r requirements.txt
