@@ -6,7 +6,7 @@ from pathlib import Path
 
 from raw import db
 
-OUTPUT_PATH = os.getenv("OUTPUT_PATH", "query_files")
+OUTPUT_PATH = os.getenv("OUTPUT_PATH", "output")
 
 
 def flat_list_queries():
