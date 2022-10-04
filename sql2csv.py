@@ -19,7 +19,7 @@ def flat_list_queries():
 
 def results_to_csv(query_name):
     """Generate CSV from result data"""
-    db.result("use schema pg_wmx_api_app_public")
+    db.result("use schema pg10_wmx_api_app_public")
     result = db.result_by_name(query_name)
     headers = list(result[0].keys())
     with open(f"{OUTPUT_PATH}/{query_name}.csv", "w") as output_file:
